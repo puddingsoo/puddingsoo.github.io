@@ -200,12 +200,12 @@ const PROJECTS = [
         ] },
         { type: 'figure', src: 'assets/img/admin-oneflow.jpg', caption: '[TO-BE] 계약·정산·상품 통합 등록 및 재기안 플로우' },
         { type: 'text', label: 'Policy & Logic', title: '계약 상태와 사용자 권한에 따른 예외 정책 체계화', body: '<strong>예외 정책과 상태 변경 이력을 명확히 정의해 입력 오류를 줄이고, 변경 내역을 확인할 수 있도록 설계했습니다.</strong>' },
-        { type: 'cards', layout: 'stack', items: [
+        { type: 'cards', cols: 2, ratio: '16 / 11', fit: 'contain', bg: '#002188', items: [
           { img: 'assets/img/admin-policy-1.jpg', title: '① 사용자 권한 및 상태별 버튼 제어 정책', body: '문서 상태, ID 부여 기준, 권한별 수정 가능 여부를 정리해 상태별 제어 기준표를 작성했습니다. 상황별 버튼 노출 기준을 정의해 실무자의 오입력을 방지하고, 개발 시 기준을 명확히 전달하도록 했습니다.' },
           { img: 'assets/img/admin-policy-2.jpg', title: '② 문서 상태 변경 이력 조회 탭 설계', body: '계약 생성·수정·결재·반려 이력과 결재 코멘트를 시점별로 확인할 수 있는 전용 탭을 설계했습니다.' },
         ] },
         { type: 'text', label: 'New Feature', title: '계약 데이터 기반 실적 조회·예측 기능 설계', body: '엑셀로 실적을 별도 집계하던 업무를 개선하기 위해, <strong>어드민에서 실적 현황과 예상 매출을 조회할 수 있는 대시보드를 설계</strong>했습니다.' },
-        { type: 'cards', layout: 'stack', items: [
+        { type: 'cards', cols: 2, ratio: '16 / 11', fit: 'contain', bg: '#002188', items: [
           { img: 'assets/img/admin-dash-1.jpg', title: '① 실적 현황 조회 (실적현황 탭)', body: '계약 데이터와 연동되어 별도 엑셀 가공 없이 누적/월별 판매 금액 및 영업 수익 현황을 실시간으로 한눈에 파악할 수 있도록 구현했습니다.' },
           { img: 'assets/img/admin-dash-2.jpg', title: '② 예상 실적 조회 (실적예상 탭)', body: '전체 계약 진행 데이터를 바탕으로 연도별·월별 예상 판매 금액과 영업 수익을 자동으로 산출하여, 별도 가공 없이 즉시 보고에 활용할 수 있도록 구현했습니다.' },
         ] },
