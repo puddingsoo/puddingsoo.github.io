@@ -840,7 +840,7 @@ const PROJECTS = [
       ],
       design: [
         { type: 'text', title: '서비스 기회 영역 도출 및 방향성 제안', body: '페르소나에 따른 서비스 시나리오 도출' },
-        { type: 'cards', cols: 3, ratio: 'auto', fit: 'contain', items: [
+        { type: 'cards', layout: 'row', ratio: 'auto', fit: 'contain', items: [
           { img: 'assets/img/pp-persona-a.jpg', title: 'Persona A | 높은 자기애 기반 자기 계발 욕구형' },
           { img: 'assets/img/pp-persona-b.jpg', title: 'Persona B | 경우에 따른 자기 비난형' },
           { img: 'assets/img/pp-persona-c.jpg', title: 'Persona C | 아이 중심 생활형' },
