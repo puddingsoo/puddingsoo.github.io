@@ -481,7 +481,7 @@ const PROJECTS = [
     role: '기획 PA',
     contribution: ['상위 기획 (30%)', '반응형 사이트 화면 설계 및 검수 (60%)', '민팅 사이트 화면 설계 및 검수 (30%)'],
     team: '기획 3 · 디자인 5 · 개발 3',
-    thumb: 'assets/img/bellygom-hero.jpg',
+    thumb: 'assets/img/bellygom-hero.jpg', coverBg: '#fdeae9',
     tags: ['상위기획', '유틸리티설계', '웹사이트구축'],
     sectionLabels: { design: { label: '기획 · 설계', en: 'Planning & Design' } },
     sections: {
@@ -542,7 +542,7 @@ const PROJECTS = [
     contribution: ['문제 정의 및 연구·실험 설계 (100%)', '정량·정성 데이터 분석 및 페르소나 도출 (100%)', 'AI 챗봇 프로토타입 구현 및 프롬프트 설계 (100%)'],
     team: '',
     link: { label: '논문 보기', url: 'https://aodr.org/_PR/view/?aidx=49544&bidx=4446' },
-    thumb: 'assets/img/ai-hero.jpg',
+    thumb: 'assets/img/ai-hero.jpg', coverBg: '#b6b4ac',
     tags: ['심층 인터뷰', '요인·군집 분석', 'ANOVA', '프롬프트 설계'],
     sectionLabels: { research: { label: '1차 실험', en: 'UX Research' }, design: { label: '2차 실험', en: 'UX Research' }, result: { label: '설계 전략', en: 'Design Implication' } },
     sections: {
@@ -635,7 +635,7 @@ const PROJECTS = [
     contribution: ['문헌 연구와 질적 리서치를 기반으로 가설 수립', '질적 및 양적 리서치 수행', '실험물 설계', '양적 데이터 분석 및 가설 검증', '버추얼 휴먼 페르소나 설계 전략 도출'],
     team: '1명 (기여도 100%, 주저자)',
     link: { label: '논문 보기', url: 'https://aodr.org/_PR/view/?aidx=42744&bidx=3874' },
-    thumb: 'assets/img/mid-hero.jpg',
+    thumb: 'assets/img/mid-hero.jpg', coverBg: '#c0b4a5',
     tags: ['심층 인터뷰', '온라인 설문', '분산·회귀분석', '버추얼 휴먼'],
     sectionLabels: { research: { label: '사용자 조사', en: 'User Research' }, design: { label: '가설 검증', en: 'Data Analysis' }, result: { label: '설계 전략', en: 'Design Guide' } },
     sections: {
@@ -718,7 +718,7 @@ const PROJECTS = [
     contribution: ['질적 및 양적 리서치 수행', '질적 데이터 분석을 통한 인사이트 도출', '이동적 관광약자의 관광 서비스 여정별 품질 속성 도출', '스마트 관광 서비스 전략 및 서비스 콘셉트 제안', '서비스 블루프린트 도출'],
     team: '4명 (기여도 60%, 주저자)',
     link: { label: '논문 보기', url: 'https://drive.google.com/file/d/1lIMz-WYZkOZafQ-X5MfMYdLF6Vb8yZv_/view?usp=drive_link' },
-    thumb: 'assets/img/tour-hero.jpg',
+    thumb: 'assets/img/tour-hero.jpg', coverBg: '#b3c4c4',
     tags: ['심층 인터뷰', '비디오 에스노그라피', 'Kano 모델', '서비스 블루프린트'],
     sectionLabels: { research: { label: '사용자 조사', en: 'User Research' }, design: { label: '데이터 분석', en: 'Kano · Timko' }, result: { label: '전략 제안', en: 'Service Concept' } },
     sections: {
@@ -796,7 +796,7 @@ const PROJECTS = [
     contribution: ['질적 및 양적 리서치 수행', '군집 유형 분석', '페르소나 정의 및 서비스 방향 설정', '자가진단 심리 솔루션 설계', '사용자 검증'],
     team: '5명 (기여도 30%)',
     link: { label: '논문 보기', url: 'https://drive.google.com/file/d/1BuTrvCUAd52-Sr1UtTvQI_uoneyBohnq/view?usp=drive_link' },
-    thumb: 'assets/img/pp-hero.jpg',
+    thumb: 'assets/img/pp-hero.jpg', coverBg: '#cbc1bb',
     tags: ['심층 인터뷰', '어피니티 다이어그램', '군집 분석', '서비스 블루프린트'],
     sectionLabels: { research: { label: '사용자 조사', en: 'User Research' }, design: { label: '서비스 설계', en: 'Service Design' }, result: { label: '사용자 검증', en: 'Validation' } },
     sections: {
