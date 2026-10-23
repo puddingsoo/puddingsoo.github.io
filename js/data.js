@@ -898,7 +898,6 @@ const PROJECT_GROUPS = {
   more: {
     no: '02',
     title: '주요 프로젝트',
-    sub: '이전 실무 경험',
     items: [
       { label: '2023.06 – 2024.12', title: 'LG전자 WEB/오픈마켓 기획전', desc: '자사 이커머스 콘텐츠 및 주요 오픈마켓 기획전 제작·운영', tags: ['이커머스', '기획전운영', '오픈마켓'], link: 'project.html?id=lge' },
       { label: '2022.08 – 2023.05', title: '이마트24 APP/WEB', desc: '운영 데이터 정립 및 5단계 CS 대응 프로세스 체계화', tags: ['운영프로세스', '이슈대응', 'QA검수', '문서화'], link: 'project.html?id=emart24' },
