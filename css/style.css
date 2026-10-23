@@ -217,6 +217,7 @@ strong { font-weight: 650; color: var(--text); }
 
 .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 64px 40px; }
 .card.card-lead { display: grid; grid-template-columns: 1.35fr 1fr; gap: 48px; align-items: center; margin-bottom: 72px; }
+.card.card-lead + .more-list.more-extras { margin-top: 0; }
 .card.card-lead .card-body { padding-top: 0; }
 .card.card-lead h3 { font-size: 32px; margin-top: 12px; }
 .card.card-lead p { font-size: 18px; margin-top: 12px; }

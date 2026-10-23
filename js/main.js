@@ -135,8 +135,7 @@ function renderProjects() {
   document.getElementById('projectGroups').innerHTML = `
     <div class="pgroup">
       ${groupHead(featured)}
-      ${projectCard(featured.lead, true)}
-      <div class="grid">${featured.items.map((it) => projectCard(it)).join('')}</div>
+      ${[featured.lead, ...featured.items].map((it) => projectCard(it, true)).join('')}
       ${featured.extras ? `<ul class="more-list more-extras">${featured.extras.map(moreRow).join('')}</ul>` : ''}
     </div>
     <div class="pgroup">
