@@ -668,7 +668,7 @@ const PROJECTS = [
           { label: '친구형 | 페르소나 A, B', blocks: [{ type: 'figure', src: 'assets/img/mid-dialog-friend.jpg', width: '56%', caption: '친구형 | 페르소나 A, B' }] },
           { label: '전문가형 | 페르소나 C, D', blocks: [{ type: 'figure', src: 'assets/img/mid-dialog-expert.jpg', width: '56%', caption: '전문가형 | 페르소나 C, D' }] },
         ] },
-        { type: 'cards', cols: 2, items: [
+        { type: 'cards', layout: 'stack', items: [
           { title: '실험 대상', body: '45~65세 대한민국 성인 남녀 252명(남성 128명, 여성 124명)<br>선정 기준: 우울감과 외로움을 자주 또는 깊게 경험한다고 보고한 사람<br>우울 척도(CES-D): 평균 20점(16점 이상 우울군)' },
           { title: '실험 방법: 온라인 설문조사', body: '버추얼 휴먼 개념과 실험 절차 설명 제공 ▶ 인구통계학적 정보 및 우울 척도 응답 ▶ 네 가지 페르소나 시나리오 확인 ▶ 인간 유사성, 매력성, 의사사회적 상호작용, 외로움 관련 문항 응답<br>* 모두 리커트 5점 척도(1=전혀 그렇지 않다, 5= 매우 그렇다)를 사용하여 측정' },
         ] },
