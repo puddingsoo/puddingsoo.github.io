@@ -477,8 +477,8 @@ a.more-inner:hover strong { color: var(--blue); }
   .blk-figure .frame img,
   .blk-tabs .blk-figure .frame img { width: 70%; height: auto; max-height: 640px; object-fit: contain; }
   .blk-cards.is-stack .c-img { padding: 40px 15%; max-height: 560px; background: var(--bg-soft); }
-  .cs-cover-img { display: flex; justify-content: center; align-items: center; padding: 56px 0; }
-  .cs-cover-img img { width: 70%; height: auto; max-height: 640px; object-fit: contain; }
+  .cs-cover-img.is-inset { display: flex; justify-content: center; align-items: center; padding: 56px 0; }
+  .cs-cover-img.is-inset img { width: 70%; height: auto; max-height: 640px; object-fit: contain; }
   .cs-cover-mock .browser { left: 25%; right: 25%; top: 16%; bottom: -4%; }
   .card-lead .phone { width: 26.6%; top: 12%; }
   .card-lead .browser { left: 21.5%; right: 21.5%; top: 17%; bottom: 17%; border-radius: 12px; }
