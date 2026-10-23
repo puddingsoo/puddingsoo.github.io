@@ -456,6 +456,11 @@ a.more-inner:hover strong { color: var(--blue); }
 .blk-figure .frame { border-radius: 14px; overflow: hidden; background: var(--bg-soft); border: 1px solid var(--line); cursor: zoom-in; }
 .blk-figure img { width: 100%; }
 .blk-figure figcaption { margin-top: 12px; font-size: 13px; color: var(--text-3); }
+/* PC: 세로로 긴 이미지가 화면을 덮지 않도록 높이를 제한하고 이미지 폭에 맞춰 가운데 정렬 */
+@media (min-width: 761px) {
+  .blk-figure:not(.blk-tabs .blk-figure) { width: fit-content; max-width: 100%; margin-left: auto; margin-right: auto; }
+  .blk-figure:not(.blk-tabs .blk-figure) img { width: auto; max-width: 100%; max-height: 640px; }
+}
 
 @media (max-width: 960px) {
   .cs-layout { grid-template-columns: 1fr; gap: 0; padding-top: 64px; }
