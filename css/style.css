@@ -474,8 +474,7 @@ a.more-inner:hover strong { color: var(--blue); }
 /* PC: 배경 틀은 본문 폭 그대로, 안의 이미지는 70%로 줄여 여백을 넉넉하게 */
 @media (min-width: 761px) {
   .blk-figure .frame { display: flex; justify-content: center; align-items: center; padding: 48px 0; }
-  .blk-figure .frame img,
-  .blk-tabs .blk-figure .frame img { width: 70%; height: auto; max-height: 640px; object-fit: contain; }
+  .blk-figure .frame img { width: var(--fig-w, 70%); height: auto; max-height: 640px; object-fit: contain; }
   .blk-cards.is-stack .c-img { padding: 40px 15%; max-height: 560px; background: var(--bg-soft); }
   .cs-cover-img.is-inset { display: flex; justify-content: center; align-items: center; padding: 56px 0; }
   .cs-cover-img.is-inset img { width: 70%; height: auto; max-height: 640px; object-fit: contain; }
@@ -535,3 +534,6 @@ a.more-inner:hover strong { color: var(--blue); }
 /* 탭 안의 세로로 긴 이미지는 높이를 제한해 한눈에 보이게 */
 .blk-tabs .blk-figure .frame { display: flex; justify-content: center; background: var(--bg-soft); }
 .blk-tabs .blk-figure .frame img { width: auto; max-width: 100%; max-height: 680px; }
+@media (min-width: 761px) {
+  .blk-tabs .blk-figure .frame img { width: var(--fig-w, 70%); max-height: 640px; object-fit: contain; }
+}

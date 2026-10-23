@@ -665,8 +665,8 @@ const PROJECTS = [
         { type: 'text', title: '실험 시나리오 도출 및 버추얼 휴먼 페르소나 전략 도출을 위한 실험 설계', body: '버추얼 휴먼 페르소나의 시각적 및 정신적 유사성이 외로움 완화에 미치는 영향을 검증하기 위해, 심층 인터뷰를 기반으로 공통된 상황과 네 가지 유형의 버추얼 휴먼 페르소나에 따른 시나리오를 개발하였습니다.' },
         { type: 'text', title: '상황', body: '귀하는 퇴직 후 가족과 함께 살고 있습니다. 퇴직 후 사회적 네트워크의 감소와 가족 구조의 변화로 인하여 우울감과 외로움을 느끼곤 합니다. 아침 식사를 마치고 모든 가족들이 출근을 하면 집안일을 마치고 거실에서 홀로 시간을 보내며 할일을 찾아보지만, 마음속에는 우울함과 외로움이 밀려옵니다. 소울(Soul)은 중년의 우울감과 외로움을 지원하기 위한 버추얼 휴먼으로, 당신이 집에 있는 시간임을 인지하고 말을 건넵니다.' },
         { type: 'tabs', title: '실험 시나리오', items: [
-          { label: '친구형 | 페르소나 A, B', blocks: [{ type: 'figure', src: 'assets/img/mid-dialog-friend.jpg', caption: '친구형 | 페르소나 A, B' }] },
-          { label: '전문가형 | 페르소나 C, D', blocks: [{ type: 'figure', src: 'assets/img/mid-dialog-expert.jpg', caption: '전문가형 | 페르소나 C, D' }] },
+          { label: '친구형 | 페르소나 A, B', blocks: [{ type: 'figure', src: 'assets/img/mid-dialog-friend.jpg', width: '56%', caption: '친구형 | 페르소나 A, B' }] },
+          { label: '전문가형 | 페르소나 C, D', blocks: [{ type: 'figure', src: 'assets/img/mid-dialog-expert.jpg', width: '56%', caption: '전문가형 | 페르소나 C, D' }] },
         ] },
         { type: 'cards', cols: 2, items: [
           { title: '실험 대상', body: '45~65세 대한민국 성인 남녀 252명(남성 128명, 여성 124명)<br>선정 기준: 우울감과 외로움을 자주 또는 깊게 경험한다고 보고한 사람<br>우울 척도(CES-D): 평균 20점(16점 이상 우울군)' },

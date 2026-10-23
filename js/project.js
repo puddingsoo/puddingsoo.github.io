@@ -33,7 +33,7 @@ function renderBlock(b) {
 
     case 'figure':
       return `<figure class="blk blk-figure">
-        <div class="frame"><img src="${b.src}" alt="${b.caption || ''}" loading="lazy"></div>
+        <div class="frame"${b.width ? ` style="--fig-w:${b.width}"` : ''}><img src="${b.src}" alt="${b.caption || ''}" loading="lazy"></div>
         ${b.caption ? `<figcaption>${b.caption}</figcaption>` : ''}
       </figure>`;
 
