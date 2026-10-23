@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>안수진 · 서비스 기획자 포트폴리오</title>
+  <meta name="description" content="사용자 맥락을 깊이 이해하고, 복잡한 시스템을 명확한 흐름으로 구조화하는 5년 차 서비스 기획자 안수진의 포트폴리오입니다.">
+  <meta property="og:title" content="안수진 · 서비스 기획자 포트폴리오">
+  <meta property="og:description" content="사용자 맥락을 깊이 이해하고, 복잡한 시스템을 명확한 흐름으로 구조화합니다.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231f4ef5'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='15' fill='white' text-anchor='middle'%3ESA%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="wrap">
+      <a class="brand" href="#top">Soojin An<span>.</span></a>
+      <nav class="nav-links" id="navLinks" aria-label="주요 메뉴">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="hero-name reveal">Portfolio by Soojin An</p>
+        <h1 class="reveal" id="heroLead"></h1>
+        <p class="hero-sub reveal" id="heroSub"></p>
+        <div class="hero-meta reveal">
+          <span><b>Career</b>5 years</span>
+          <span><b>Focus</b>서비스 기획 · UX 리서치 · UX Writing</span>
+          <span><b>Now</b>이모션글로벌</span>
+        </div>
+        <div class="hero-cta reveal">
+          <a class="btn btn-primary" href="#projects">프로젝트 보기
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+          </a>
+          <a class="btn" href="#contact">연락하기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">About</p>
+          <div>
+            <h2 class="section-title">안녕하세요,<br>서비스 기획자 안수진입니다.</h2>
+          </div>
+        </div>
+
+        <div class="about-intro reveal">
+          <img class="profile-photo" src="assets/img/profile.jpg" alt="안수진 프로필 사진" width="220" height="280" loading="lazy">
+          <div>
+            <p class="about-lead" id="aboutLead"></p>
+            <div class="about-tags" id="aboutTags"></div>
+            <p class="about-body" id="aboutBody"></p>
+          </div>
+        </div>
+
+        <div class="principles" id="principles"></div>
+
+        <div class="sub-head reveal">
+          <h3>Career Timeline</h3>
+        </div>
+        <div class="tl-groups" id="timeline"></div>
+
+        <div class="sub-head reveal">
+          <h3>Tools &amp; Skills</h3>
+        </div>
+        <div class="skills" id="skills"></div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 class="eyebrow">Projects</h2>
+        </div>
+        <div id="projectGroups"></div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section class="section" id="research">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">Research</p>
+          <div>
+            <h2 class="section-title">사용자 이해를 위한 리서치</h2>
+            <p class="section-desc">석사 학위 논문 · SCOPUS 2편 · KCI 2편</p>
+          </div>
+        </div>
+        <div class="papers" id="papers"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <p class="eyebrow reveal">Contact</p>
+        <h2 class="reveal" style="margin-top:20px">함께 더 나은 경험을<br>만들어가고 싶습니다.</h2>
+        <p class="contact-closing reveal" id="closing"></p>
+        <a class="contact-mail reveal" id="mail" href="#">
+          <span id="mailText"></span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <span>© Soojin An</span>
+      <a href="#top">맨 위로 ↑</a>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
