@@ -471,10 +471,14 @@ a.more-inner:hover strong { color: var(--blue); }
 .blk-figure .frame { border-radius: 14px; overflow: hidden; background: var(--bg-soft); border: 1px solid var(--line); cursor: zoom-in; }
 .blk-figure img { width: 100%; }
 .blk-figure figcaption { margin-top: 12px; font-size: 13px; color: var(--text-3); }
-/* PC: 세로로 긴 이미지가 화면을 덮지 않도록 높이를 제한하고 이미지 폭에 맞춰 가운데 정렬 */
+/* PC: 배경 틀은 본문 폭 그대로, 안의 이미지는 70%로 줄여 여백을 넉넉하게 */
 @media (min-width: 761px) {
-  .blk-figure:not(.blk-tabs .blk-figure) { width: fit-content; max-width: 100%; margin-left: auto; margin-right: auto; }
-  .blk-figure:not(.blk-tabs .blk-figure) img { width: auto; max-width: 100%; max-height: 640px; }
+  .blk-figure .frame { display: flex; justify-content: center; align-items: center; padding: 48px 0; }
+  .blk-figure .frame img,
+  .blk-tabs .blk-figure .frame img { width: 70%; height: auto; max-height: 640px; object-fit: contain; }
+  .blk-cards.is-stack .c-img { padding: 40px 15%; background: var(--bg-soft); }
+  .card-lead .phone { width: 26.6%; top: 12%; }
+  .card-lead .browser { left: 21.5%; right: 21.5%; top: 17%; bottom: 17%; border-radius: 12px; }
 }
 
 @media (max-width: 960px) {
