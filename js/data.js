@@ -565,7 +565,7 @@ const PROJECTS = [
       ],
       research: [
         { type: 'text', topic: true, title: '페르소나 설계를 위한 AI 상담가 핵심 요인 정의', body: '사용자 및 전문가 리서치를 통해 AI 상담가를 구별짓는 5가지 핵심 기획 기준을 정립했습니다.' },
-        { type: 'cards', cols: 2, ratio: 'auto', fit: 'contain', items: [
+        { type: 'cards', layout: 'row', ratio: 'auto', fit: 'contain', items: [
           { img: 'assets/img/ai-interview.jpg', title: '심층 인터뷰', body: '<strong>상담 경험자·전문가 10명 심층 인터뷰</strong><br>AI 상담의 기술적 신뢰와 분석 역량은 강점으로 평가받은 반면, 감정적 교류와 공감 영역에서는 명확한 한계가 존재함을 확인했습니다.' },
           { img: 'assets/img/ai-factors.jpg', title: '온라인 설문조사', body: '<strong>내담자 221명 대상 요인 분석</strong><br>정량 설문 데이터를 분석해 사용자 만족도에 결정적 영향을 미치는 5가지 AI 상담가 핵심 요인을 정교하게 구조화했습니다.' },
         ] },
