@@ -340,6 +340,10 @@ a.more-inner:hover strong { color: var(--blue); }
 
 .cs-cover { margin-top: 8px; border-radius: 20px; overflow: hidden; background: var(--bg-soft); }
 .cs-cover img { width: 100%; max-height: 640px; object-fit: cover; object-position: top center; }
+/* 대표 이미지: 자르지 않고 전체를 보여주고, 남는 좌우 공간은 배경색(coverBg) 또는 흐린 이미지로 채움 */
+.cs-cover-img { position: relative; isolation: isolate; background: var(--cover-bg, var(--bg-soft)); }
+.cs-cover-img::before { content: ""; position: absolute; inset: -40px; z-index: -1; background: var(--cover-src, none) center / cover; filter: blur(36px); opacity: .85; }
+.cs-cover-img img { width: auto; max-width: 100%; max-height: 760px; margin: 0 auto; object-fit: contain; }
 .cs-cover-mock { position: relative; aspect-ratio: 16 / 9; max-height: 640px; }
 .cs-cover-mock .browser { left: 14%; right: 14%; top: 10%; bottom: -4%; }
 .cs-cover-mock img { max-height: none; }

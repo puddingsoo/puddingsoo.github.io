@@ -77,7 +77,7 @@ function renderCase(p) {
     </div>
     ${p.cover.caption ? `<p class="cs-cover-caption reveal">${p.cover.caption}</p>` : ''}`;
   const cover = coverMock
-    || (p.thumb ? `<div class="cs-cover reveal"><img src="${p.thumb}" alt="${p.title} 대표 이미지"></div>` : '');
+    || (p.thumb ? `<div class="cs-cover cs-cover-img reveal" style="${p.coverBg ? `--cover-bg:${p.coverBg}` : `--cover-src:url('${p.thumb}')`}"><img src="${p.thumb}" alt="${p.title} 대표 이미지"></div>` : '');
 
   // 데이터에 없는 섹션은 건너뛰고, 번호는 보이는 순서대로 다시 매김
   const order = SECTION_ORDER.filter((s) => p.sections[s.key]).map((s, i) => ({ ...s, ...(p.sectionLabels || {})[s.key], no: String(i + 1).padStart(2, '0') }));

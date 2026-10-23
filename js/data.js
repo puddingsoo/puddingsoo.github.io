@@ -77,7 +77,7 @@ const PROJECTS = [
     role: '서비스 Lead Planner',
     contribution: ['일정 리딩', '정책 · IA · 화면설계', '개발·디자인 협업 및 QA'],
     team: '기획 1 · 디자인 1 · 개발 2',
-    thumb: 'assets/img/cardmove-problem.jpg',
+    thumb: 'assets/img/cardmove-problem.jpg', coverBg: '#002188',
     tags: ['공통 플로우 설계', '선조회 방식', '100+ 화면 정의', '예외 분기'],
     sections: {
       background: [
@@ -123,7 +123,7 @@ const PROJECTS = [
     role: '서비스 Lead Planner',
     contribution: ['일정 리딩', '정책 · IA · 화면설계', '개발·디자인 협업 및 QA'],
     team: '기획 1 · 디자인 1 · 개발 2',
-    thumb: 'assets/img/loan-screens.jpg',
+    thumb: 'assets/img/loan-screens.jpg', coverBg: '#000000',
     tags: ['공공마이데이터', '토큰 재활용', '본인인증 분기', '예외 로직'],
     sections: {
       background: [
@@ -230,7 +230,7 @@ const PROJECTS = [
     role: '서비스 Lead Planner',
     contribution: ['일정 리딩', '리서치 (60%)', 'IA · 화면설계', '개발·디자인 협업 및 QA'],
     team: '기획 1 · 디자인 1 · 개발 2',
-    thumb: 'assets/img/main-hero.jpg',
+    thumb: 'assets/img/main-hero.jpg', coverBg: '#002188',
     tags: ['메인 화면', '카드 탐색 구조', '구조 테스트', 'UX 라이팅'],
     sectionLabels: { research: { label: 'UX 전략', en: 'UX Strategy' }, result: { label: '결과', en: 'What Changed' } },
     sections: {
@@ -294,7 +294,7 @@ const PROJECTS = [
     role: '서비스 Lead Planner',
     contribution: ['리서치', '가이드북', 'UX 라이팅 단어장'],
     team: '기획 1 (단독 수행)',
-    thumb: 'assets/img/writing-guidebook.jpg',
+    thumb: 'assets/img/writing-guidebook.jpg', coverBg: '#c2d0ff',
     tags: ['UX 라이팅', '심층 인터뷰', '코어밸류·페르소나', '단어장'],
     sectionLabels: { research: { label: 'UX 전략', en: 'UX Strategy' }, design: { label: '기준 정립', en: 'Core Value & Persona' }, result: { label: '결과', en: 'What Changed' } },
     sections: {
@@ -356,7 +356,7 @@ const PROJECTS = [
     role: '기획 PA',
     contribution: ['이벤트 기획 및 상시 운영 (70%)', '데이터/쿠폰 관리 및 이슈 대응 (70%)', '어드민 매뉴얼 및 운영 프로세스 표준화 (50%)'],
     team: '기획 3 · 디자인 2 · 개발 3',
-    thumb: 'assets/img/emart-hero.jpg',
+    thumb: 'assets/img/emart-hero.jpg', coverBg: '#141323',
     // 운영 프로젝트라 화면설계 대신 슬라이드 표현(운영 전략)으로 표시
     sectionLabels: { design: { label: '운영 전략', en: 'Operation Strategy' } },
     tags: ['운영 프로세스', '데이터 교차검증', 'QA 시나리오', '온보딩 매뉴얼'],
@@ -437,7 +437,7 @@ const PROJECTS = [
     role: '기획 PA',
     contribution: ['자사 플랫폼 기획전·이벤트 운영 (70%)', '오픈마켓 기획전 운영 (70%)', '주간 유입량 보고 (30%)'],
     team: '기획 6 · 디자인 9 · 개발 2',
-    thumb: 'assets/img/lge-hero.jpg',
+    thumb: 'assets/img/lge-hero.jpg', coverBg: '#b71d1d',
     tags: ['이커머스', '기획전운영', '오픈마켓'],
     sectionLabels: { design: { label: '주요 업무', en: 'Key Work' } },
     sections: {
