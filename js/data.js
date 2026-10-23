@@ -270,7 +270,7 @@ const PROJECTS = [
       result: [
         { type: 'text', title: '메인 화면을 카드 발급을 위한 정보 탐색의 출발점으로 재설계', body: '구조 테스트 결과를 반영해, <strong>메인 화면에서 카드 정보를 더 빠르게 탐색하고 발급으로 이어질 수 있도록 개선</strong>했습니다.' },
         { type: 'list', items: ['메인 진입과 동시에 <strong>카드 혜택을 인지할 수 있도록 화면 흐름을 재구성</strong>했습니다.', '카드 목록을 소비 패턴으로 나누어 <strong>사용자가 자신의 목적에 맞는 카드를 바로 찾을 수 있도록 변경</strong>했습니다.'] },
-        { type: 'cards', layout: 'stack', items: [
+        { type: 'cards', layout: 'row', ratio: '4 / 3', fit: 'contain', bg: '#eef1f8', items: [
           { img: 'assets/img/main-after-1.jpg', pos: 'center center', title: '메인 영역 | 메인 배너', body: '카드·이벤트 정보를 상단에 집중 배치해 메인 진입 시 카드 탐색을 유도' },
           { img: 'assets/img/main-after-2.jpg', pos: 'center center', title: '카드 영역', body: '소비 패턴 기준으로 카드 카테고리를 재구성해 탐색 효율과 혜택 인지 강화. 뱃지를 활용해 카드 특장점과 최신 정보 직관적으로 전달' },
           { img: 'assets/img/main-after-3.jpg', pos: 'center center', title: '앱 설치 유도 배너', body: '앱 내 서비스로의 진입 유도 역할. 친근한 문장으로 클릭 전환 유도' },
