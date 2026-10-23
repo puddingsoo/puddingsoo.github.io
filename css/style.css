@@ -451,6 +451,20 @@ a.more-inner:hover strong { color: var(--blue); }
 .blk-compare tbody th { color: var(--text-3); font-weight: 500; white-space: nowrap; }
 .blk-compare tbody td { color: var(--text-2); }
 .blk-compare tbody td:last-child { color: var(--text); font-weight: 600; }
+/* 모바일: 가로 스크롤 대신 항목별 카드로 세로 배치 */
+@media (max-width: 760px) {
+  .blk-compare { overflow: visible; }
+  .blk-compare table { min-width: 0; }
+  .blk-compare thead { display: none; }
+  .blk-compare table, .blk-compare tbody, .blk-compare tr, .blk-compare th, .blk-compare td { display: block; }
+  .blk-compare tbody tr { padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .blk-compare tbody tr:first-child { border-top: 1px solid var(--text); }
+  .blk-compare tbody th, .blk-compare tbody td { padding: 0; border: 0; white-space: normal; }
+  .blk-compare tbody th { margin-bottom: 10px; font-size: 14px; font-weight: 700; color: var(--text); }
+  .blk-compare tbody td + td { margin-top: 8px; }
+  .blk-compare tbody td::before { content: attr(data-label); display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: var(--text-3); }
+  .blk-compare tbody td:last-child::before { color: var(--blue); }
+}
 
 .blk-figure { margin: 0; }
 .blk-figure .frame { border-radius: 14px; overflow: hidden; background: var(--bg-soft); border: 1px solid var(--line); cursor: zoom-in; }

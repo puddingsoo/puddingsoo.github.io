@@ -28,7 +28,7 @@ function renderBlock(b) {
     case 'compare':
       return `<div class="blk blk-compare"><table>
         <thead><tr>${b.head.map((h) => `<th scope="col">${h}</th>`).join('')}</tr></thead>
-        <tbody>${b.rows.map((r) => `<tr><th scope="row">${r[0]}</th>${r.slice(1).map((c) => `<td>${c}</td>`).join('')}</tr>`).join('')}</tbody>
+        <tbody>${b.rows.map((r) => `<tr><th scope="row">${r[0]}</th>${r.slice(1).map((c, i) => `<td data-label="${b.head[i + 1] || ''}">${c}</td>`).join('')}</tr>`).join('')}</tbody>
       </table></div>`;
 
     case 'figure':
