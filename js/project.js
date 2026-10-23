@@ -107,12 +107,14 @@ function renderCase(p) {
       ${cover}
 
       <dl class="cs-meta reveal">
-        ${p.period ? `<div><dt>Period</dt><dd>${withTodo(p.period)}</dd></div>` : ''}
-        <div><dt>Type</dt><dd>${withTodo(p.type)}</dd></div>
-        <div><dt>Role</dt><dd>${withTodo(p.role)}</dd></div>
-        <div><dt>Team</dt><dd>${p.team === '' ? '—' : withTodo(p.team)}</dd></div>
-        <div class="wide"><dt>Contribution</dt><dd>${metaList(p.contribution)}</dd></div>
-        ${p.link ? `<div class="wide"><dt>Link</dt><dd><a class="chip" href="${p.link.url}" target="_blank" rel="noopener">${p.link.label} ${ICON.out}</a></dd></div>` : ''}
+        <div class="meta-facts">
+          ${p.period ? `<div><dt>Period</dt><dd>${withTodo(p.period)}</dd></div>` : ''}
+          <div><dt>Type</dt><dd>${withTodo(p.type)}</dd></div>
+          <div><dt>Role</dt><dd>${withTodo(p.role)}</dd></div>
+          <div><dt>Team</dt><dd>${p.team === '' ? '—' : withTodo(p.team)}</dd></div>
+          ${p.link ? `<div><dt>Link</dt><dd><a class="chip" href="${p.link.url}" target="_blank" rel="noopener">${p.link.label} ${ICON.out}</a></dd></div>` : ''}
+        </div>
+        <div class="meta-contrib"><dt>Contribution</dt><dd>${metaList(p.contribution)}</dd></div>
       </dl>
 
       <nav class="cs-tabs" aria-label="케이스스터디 목차">
