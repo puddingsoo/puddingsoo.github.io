@@ -756,14 +756,14 @@ const PROJECTS = [
         { type: 'text', title: '여정별 품질 속성 및 터치포인트, DX 기술 도출', body: '서비스 기회요소를 바탕으로 여정별 개선 아이디어 분석' },
         { type: 'steps', title: '여정별 개선 아이디어', items: ['정보 수집<br>사용자 유형에 따른 맞춤화된 정보 제공 서비스', '여행 계획<br>특화된 여행 관광 서비스, 가상공간을 활용한 온라인 사전답사 서비스', '이동<br>관광약자 전용 교통수단, 이동기기 배달 서비스, VR 길찾기 서비스', '숙박<br>관광약자를 위한 VR 숙소찾기 서비스', '관광<br>실시간 챗봇, 실시간 관광정보 분석 서비스, 스마트 로봇 휠체어 서비스', '식당<br>관광약자를 위한 VR 식당찾기 서비스'] },
         { type: 'text', body: 'Kano 모델과 Timko 고객만족계수 분석을 위해 <strong>50개의 여정별 품질 속성, 터치포인트</strong> 그리고 해당 서비스 구현을 위한 <strong>DX 기술</strong>을 도출하였습니다.' },
-        { type: 'cards', cols: 2, ratio: 'auto', fit: 'contain', items: [
+        { type: 'cards', layout: 'stack', imgWidth: '50%', items: [
           { img: 'assets/img/tour-ideas.jpg', title: '여정별 개선 아이디어' },
           { img: 'assets/img/tour-attributes.jpg', title: '여정별 품질 속성' },
         ] },
         { type: 'text', topic: true, title: 'Kano 모델 및 Timko 고객만족계수 분석 결과', body: '고객 만족 측정을 통한 품질 속성별 우선 순위 및 변별력 확보' },
         { type: 'stats', items: [{ value: '237명', label: '온라인 설문 참여자 (문항수 50개)' }, { value: '23개', label: '매력적 품질(A)' }, { value: '2개', label: '일원적 품질(O)' }] },
         { type: 'text', body: '참여자: 휠체어 사용자 11명, 동반자 90명, 고령자 동반자 49명, 유모차 사용자 87명<br>kano 모델 분석 결과 총 25개 품질 속성 항목 중 매력적 품질(A) 23개, 일원적 품질(O) 2개, 당연적 품질(M), 무관심 품질(I), 역 품질 (R)은 0개로 도출되었습니다. 이 결과는 <strong>신기술을 활용한 스마트 관광 서비스의 경우 대부분 매력적 품질로 인식되고 있음</strong>을 시사합니다.' },
-        { type: 'cards', cols: 2, ratio: 'auto', fit: 'contain', items: [
+        { type: 'cards', layout: 'stack', imgWidth: '50%', items: [
           { img: 'assets/img/tour-kano.jpg', title: '사용자 집단별 Kano · Timko 분석' },
           { img: 'assets/img/tour-journey.jpg', title: '여정별 서비스 매핑' },
         ] },

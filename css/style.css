@@ -475,7 +475,7 @@ a.more-inner:hover strong { color: var(--blue); }
 @media (min-width: 761px) {
   .blk-figure .frame { display: flex; justify-content: center; align-items: center; padding: 48px 0; }
   .blk-figure .frame img { width: var(--fig-w, 70%); height: auto; max-height: 640px; object-fit: contain; }
-  .blk-cards.is-stack .c-img { padding: 40px 15%; max-height: 560px; background: var(--bg-soft); }
+  .blk-cards.is-stack .c-img { padding: 40px calc((100% - var(--card-img-w, 70%)) / 2); max-height: 560px; background: var(--bg-soft); }
   .cs-cover-img.is-inset { display: flex; justify-content: center; align-items: center; padding: 56px 0; }
   .cs-cover-img.is-inset img { width: 70%; height: auto; max-height: 640px; object-fit: contain; }
   .cs-cover-mock .browser { left: 25%; right: 25%; top: 16%; bottom: -4%; }

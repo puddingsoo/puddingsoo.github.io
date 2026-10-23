@@ -15,7 +15,7 @@ function renderBlock(b) {
       return `<div class="blk blk-stats">${b.items.map((s) => `<div class="stat"><div class="v">${s.value}</div><div class="l">${s.label}</div></div>`).join('')}</div>`;
 
     case 'cards':
-      return `<div class="blk blk-cards${b.layout ? ` is-${b.layout}` : ''}${b.cols ? ` is-cols${b.cols}` : ''}${b.group ? ' is-grouped' : ''}">${b.group ? `<p class="group-title">${b.group}</p>` : ''}${b.items.map((c) => `
+      return `<div class="blk blk-cards${b.layout ? ` is-${b.layout}` : ''}${b.cols ? ` is-cols${b.cols}` : ''}${b.group ? ' is-grouped' : ''}"${b.imgWidth ? ` style="--card-img-w:${b.imgWidth}"` : ''}>${b.group ? `<p class="group-title">${b.group}</p>` : ''}${b.items.map((c) => `
         <div class="c">
           ${c.img ? `<img class="c-img" src="${c.img}" alt="${String(c.title).replace(/<[^>]+>/g, ' ')}" loading="lazy"${b.ratio || c.pos || b.fit ? ` style="${b.ratio ? `aspect-ratio:${c.ratio || b.ratio};max-height:none;` : ''}${c.pos ? `object-position:${c.pos};` : ''}${b.fit ? `object-fit:${b.fit};` : ''}${b.bg ? `background:${b.bg};` : ''}"` : ''}>` : ''}
           <div class="c-text">
