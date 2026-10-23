@@ -845,7 +845,7 @@ const PROJECTS = [
           { img: 'assets/img/pp-persona-b.jpg', title: 'Persona B | 경우에 따른 자기 비난형' },
           { img: 'assets/img/pp-persona-c.jpg', title: 'Persona C | 아이 중심 생활형' },
         ] },
-        { type: 'figure', src: 'assets/img/pp-scenario.jpg', caption: '페르소나별 사용자 행동 · 서비스 솔루션 시나리오' },
+        { type: 'figure', src: 'assets/img/pp-scenario.jpg', width: '90%', caption: '페르소나별 사용자 행동 · 서비스 솔루션 시나리오' },
       ],
       result: [
         { type: 'text', title: '사용자 검증을 통한 최종 서비스 방향성 및 서비스 블루프린트 제안', body: '프로토 타입을 활용한 사용자 검증<br><strong>검증 대상자</strong> 출산 경험이 있는 20~40대 사용자 5명<br>디지털 프로토타이핑을 바탕으로 전화 인터뷰, 온라인 화상 인터뷰, 지면 인터뷰를 통해 사용자 검증을 진행하였습니다.' },
