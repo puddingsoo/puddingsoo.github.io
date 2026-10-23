@@ -464,6 +464,7 @@ a.more-inner:hover strong { color: var(--blue); }
   .blk-compare tbody td + td { margin-top: 8px; }
   .blk-compare tbody td::before { content: attr(data-label); display: block; margin-bottom: 2px; font-size: 12px; font-weight: 600; color: var(--text-3); }
   .blk-compare tbody td:last-child::before { color: var(--blue); }
+  .blk-compare tbody td:last-child { margin-top: 12px; padding: 12px 14px; border-radius: 10px; background: var(--blue-soft); }
 }
 
 .blk-figure { margin: 0; }
