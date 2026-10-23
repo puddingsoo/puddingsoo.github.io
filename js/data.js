@@ -556,7 +556,7 @@ const PROJECTS = [
       ],
       problem: [
         { type: 'text', title: 'AI 상담 서비스는 확산되고 있지만, 사용자에게 맞는 AI 상담가 페르소나를 설계할 기준은 부족합니다', body: '' },
-        { type: 'cards', cols: 3, items: [
+        { type: 'cards', layout: 'stack', items: [
           { title: 'Market & Service Context', body: 'AI 기반 정신건강 상담 서비스는 시간적·경제적 제약으로 대면 상담이 어려운 사용자에게 대안적 상담 경험으로 확산되고 있습니다.' },
           { title: 'Pain Point & Problem', body: '그러나 실제 서비스에서는 단일한 AI 상담가 페르소나가 주로 제공되어, 내담자의 목적과 특성에 따른 상담 경험 차이가 충분히 반영되지 못하고 있습니다.' },
           { title: 'Impact on User Experience', body: '내담자의 기대나 상태에 부합하지 않는 어투와 답변 방식은 상담 몰입도를 저하시키고 이탈 및 서비스 만족도 감소로 이어집니다.' },
